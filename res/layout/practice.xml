@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/main1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg" >
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+     <ImageView
+        android:id="@id/gold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/gold2" />
+     
+    <TextView
+        android:id="@id/textView1"
+        android:layout_width="65.0dip"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="5.0dip"
+        android:layout_marginBottom="80.0dip"
+        android:layout_marginLeft="31.0dip"
+        android:textColor="#FFFFFF"
+        android:textSize="10.0sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@id/remind_text"
+        android:layout_width="150.0dip"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="5.0dip"
+        android:layout_marginBottom="80.0dip"
+        android:layout_marginLeft="120.0dip"
+        android:text="@string/now_score"
+        android:textColor="#FFFFFF"
+        android:textSize="12.0sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@id/highest_score"
+        android:layout_width="80.0dip"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="80.0dip"
+        android:layout_marginRight="2.0dip"
+        android:layout_marginTop="5.0dip"
+        android:text="@string/highest_score"
+        android:textColor="#FFFFFF"
+        android:textSize="12.0sp"
+        android:textStyle="bold" />
+ </RelativeLayout>
+   
+ <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+    <ImageView
+        android:id="@id/btn_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="40dip"
+        android:src="@drawable/bt_start" />
+</RelativeLayout>
+<RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="150dip"
+        android:layout_marginTop="75.0dip"
+        android:id="@id/quest_layout"
+        android:background="@drawable/quest_bg"
+        >
+
+        <TextView
+            android:id="@id/text_quest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:maxLines="4"
+            android:text="@string/practice_title"
+            android:textColor="#ff000000"
+            android:textSize="18.0sp"
+            android:width="200.0dip" />
+</RelativeLayout>
+<RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="234dip"
+        >
+    	<TextView
+        android:id="@id/text_answer_0"
+        android:layout_width="200.0dip"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/text_answer_1"
+        android:gravity="bottom"
+        android:paddingLeft="80dip"
+        android:paddingBottom="10dip"
+        android:maxLines="1"
+        android:textColor="#ff000000"
+        android:textSize="20.0sp"
+        android:width="200.0dip" 
+        android:background="@drawable/answer1_bg"/>
+
+    <TextView
+        android:id="@id/text_answer_1"
+        android:layout_width="200.0dip"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/text_answer_2"
+        android:layout_below="@id/text_answer_0"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:maxLines="1"
+        android:textColor="#ff000000"
+        android:textSize="20.0sp"
+        android:width="200.0dip" 
+        android:background="@drawable/answer2_bg"/>
+
+    <TextView
+        android:id="@id/text_answer_2"
+        android:layout_width="200.0dip"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_answer_1"
+        android:gravity="center"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="10dp"
+        android:maxLines="1"
+        android:textColor="#ff000000"
+        android:textSize="20.0sp"
+        android:width="200.0dip" 
+        android:background="@drawable/answer3_bg"/>
+    
+     <ImageView
+         android:id="@id/btn_share"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignBottom="@id/text_answer_1"
+         android:layout_alignParentRight="true"
+         android:src="@drawable/bt_share" />
+
+   </RelativeLayout>
+ 
+     <ImageView
+        android:id="@id/btn_return"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="26dp"
+        android:src="@drawable/bt_back" />
+
+    <ImageView
+        android:id="@id/btn_getanswer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="100dip"
+        android:layout_marginBottom="26dp"
+        android:src="@drawable/getanwser"/>
+
+    <ImageView
+        android:id="@id/btn_close_music"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="210dip"
+        android:layout_marginBottom="26dp"
+        android:src="@drawable/closemusci" />
+</RelativeLayout>

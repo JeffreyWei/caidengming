@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.wj.caidengmi2"
+    android:installLocation="auto"
+    android:versionCode="3"
+    android:versionName="3.0" >
+
+    <supports-screens
+        android:anyDensity="false"
+        android:largeScreens="false"
+        android:normalScreens="true"
+        android:smallScreens="false" />
+
+    <application
+        android:configChanges="keyboard|keyboardHidden|orientation"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        <activity
+            android:name="com.wj.caidengmi2.Loading"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.wj.caidengmi2.Main"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.wj.caidengmi2.Practice"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+         <activity
+            android:name="com.wj.caidengmi2.CPractice"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+         
+         <activity
+            android:name="com.wj.caidengmi2.Shop"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+         
+         
+         
+         
+         
+         
+         
+         
+         <!-- 注册墙积分墙Activity（开发者勾选了积分墙广告形式则必填） -->
+		<activity
+		android:name="com.emar.escore.scorewall.ShowWallActivity"
+		android:configChanges="keyboardHidden|orientation" />
+		<!-- 注册墙Activity推荐墙 -->
+        <activity
+            android:name="com.emar.escore.recommendwall.ShowWallRecommendActivity"
+            android:configChanges="keyboardHidden|orientation" />
+		<!-- 注册墙Activity 九宫格（开发者勾选了九宫格广告形式则必填）-->
+		<activity
+		android:name="com.emar.escore.ninewall.ShowWallNineActivity"
+		android:configChanges="keyboardHidden|orientation" />
+		<!-- 注册详情Activity (必填)-->
+		<activity
+		android:name="com.emar.escore.sdk.view.DetailActivity"
+		android:configChanges="keyboardHidden|orientation" />
+		<!-- 注册网页Activity (必填)-->
+		<activity
+		android:name="com.emar.escore.sdk.view.WebActivity"
+		android:configChanges="keyboardHidden|orientation" />
+		<meta-data android:name="YJF_APP_CHANNEL" android:value="163" />
+
+
+
+
+
+
+
+         
+        
+        <service android:name="com.wj.caidengmi2.MusicServer">
+			<intent-filter>
+				<action android:name="com.angel.Android.MUSIC"/>
+				<category android:name="android.intent.category.default" />
+			</intent-filter>
+		</service>
+
+    </application>
+
+    <uses-sdk android:minSdkVersion="4" />
+    
+    
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.GET_TASKS" /> 
+
+</manifest>

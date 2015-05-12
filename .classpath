@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/addJar"/>
+	<classpathentry kind="src" path="sourcefolder"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/sss"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry kind="lib" path="D:/caidengmi/bin/classes/javacsv.jar"/>
+	<classpathentry kind="lib" path="D:/caidengmi/bin/classes/yjfsdk_00.jar"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

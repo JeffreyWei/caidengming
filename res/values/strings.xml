@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">灯谜大全2</string>
+    <string name="challenge">挑战模式</string>
+    <string name="practice">练习模式</string>
+    <string name="exit">退出</string>
+    <string name="loading">数据读取中</string>
+    <string name="challenge_title">请点选上方「开始」进行挑战</string>
+    <string name="practice_title">请点选上方「开始」进行游戏</string>
+    <string name="fb_posted">Facebook文章张贴完成</string>
+    <string name="fb_post_fail">Facebook文章张贴失败!!!</string>
+    <string name="fb_msg_0">我在元宵猜灯谜上连续答对了</string>
+    <string name="fb_msg_1">题！世界排名第</string>
+    <string name="fb_msg_2">名的灯谜王</string>
+    <string name="user_name_title">目前排名</string>
+    <string name="user_name_msg">请输入玩家显示名称</string>
+    <string name="btn_ok">确定</string>
+    <string name="btn_cancel">取消</string>
+    <string name="no_internet_title">网络无法联机</string>
+    <string name="no_internet_msg">请检查网络联机状态</string>
+    <string name="buy_msg">请您购买「元宵猜灯谜」一起挑战猜灯谜世界排名</string>
+    <string name="right_message">恭喜您，答对了，点击确定进入下一题</string>
+    <string name="wrong_message">很遗憾，您答错了，点击确定进入下一题</string>
+    <string name="now_score">您目前得分：0</string>
+    <string name="highest_score">最高分: </string>
+    <string name="show_times">倒计时(秒): </string>
+     <string name="answer">答案:：</string>
+</resources>

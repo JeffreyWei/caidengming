@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/shop_bg" >
+	  <TextView 
+	     android:id="@id/text_now_total"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     android:layout_alignParentTop="true"
+	     android:layout_marginTop="10dp"
+	     android:layout_marginRight="30dp"
+	     android:layout_alignParentRight="true"
+	     android:textColor="#FFFFFF"
+         android:textSize="12.0sp"
+         android:textStyle="bold"
+	 />
+	  <ImageView
+	      android:id="@id/gold"
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+	      android:layout_alignParentTop="true"
+	      android:layout_alignParentRight="true"
+	      android:background="@drawable/gold"
+	     />
+	  <ImageView
+	      android:id="@id/remove_two_per"
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+	      android:layout_alignParentLeft="true"
+	      android:layout_alignParentTop="true"
+	      android:layout_marginTop="40dp"
+	      android:background="@drawable/remove_two_per" />
+	
+	  <ImageView
+	      android:id="@id/remove_all_gg"
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+	      android:layout_alignParentLeft="true"
+	      android:layout_below="@id/remove_two_per"
+	      android:layout_marginTop="20dp"
+	      android:background="@drawable/remove_all_gg" />
+	
+	  <ImageView
+	      android:id="@id/bt_get_jifen"
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+	      android:layout_centerHorizontal="true"
+	      android:layout_below="@+id/remove_all_gg"
+	      android:layout_marginTop="36dp"
+	      android:src="@drawable/bt_get_jifen" />
+
+</RelativeLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:background="@drawable/bg">
+
+	<ImageView
+			android:id="@+id/imageView2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentRight="true"
+			android:layout_alignParentTop="true"
+			android:layout_marginTop="-40.0dip"
+			android:background="@drawable/logo_index"/>
+
+	<ImageView
+			android:id="@+id/imageView1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentBottom="true"
+			android:layout_alignParentRight="true"
+			android:background="@drawable/index01"/>
+
+	<ScrollView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+
+		<RelativeLayout
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				>
+
+			<ImageView
+					android:id="@id/btn_exit"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_alignParentLeft="true"
+					android:layout_below="@id/btn_shop"
+					android:layout_marginLeft="25dp"
+					android:layout_marginTop="36dp"
+					android:src="@drawable/exit"/>
+
+			<ImageView
+					android:id="@id/btn_challenge"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_below="@+id/btn_practice"
+					android:layout_alignLeft="@id/btn_practice"
+					android:layout_marginTop="36dp"
+					android:src="@drawable/practice"/>
+
+			<ImageView
+					android:id="@id/btn_practice"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_alignLeft="@id/btn_shop"
+					android:layout_marginTop="36dp"
+					android:src="@drawable/sample"/>
+
+			<ImageView
+					android:id="@id/btn_shop"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_alignLeft="@id/btn_exit"
+					android:layout_below="@+id/btn_challenge"
+					android:layout_marginTop="36dp"
+					android:src="@drawable/shop"/>
+
+			<Button
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="New Button"
+					android:id="@+id/button"
+					android:layout_alignParentRight="true"
+					android:layout_alignParentTop="true"
+					android:layout_marginTop="10dp"
+					android:visibility="invisible"/>
+		</RelativeLayout>
+	</ScrollView>
+</RelativeLayout>
